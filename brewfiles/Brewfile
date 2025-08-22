@@ -10,7 +10,6 @@ tap 'homebrew/core'
 brew 'bash'
 
 ### System tools
-cask '1password'
 cask 'appcleaner'
 
 # let you mount windows drives and write on it
@@ -25,4 +24,5 @@ cask 'miro'
 
 ### Microsoft
 cask 'microsoft-office'
+cask 'microsoft-powerpoint'
 cask 'microsoft-teams'
