@@ -1,9 +1,5 @@
 # Settings only for instride/Developers
 
-### Variables
-SRC=/Volumes/recycling/_install_macbooks    # src path for manual software
-DEST=~/schnuppiScript/ToInstall               # destination path for manual software
-
 #"Disable smart quotes and smart dashes as they are annoying when typing code"
 defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
@@ -24,10 +20,3 @@ defaults write com.apple.Safari "com.apple.Safari.ContentPageGroupIdentifier.Web
 
 #"Adding a context menu item for showing the Web Inspector in web views"
 defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
-
-### Install software without brew
-
-# Filezilla
-mkdir -p $DEST/filezilla/ && cp -R $SRC/filezilla/ $DEST/filezilla/
-# Busylight
-mkdir -p $DEST/busylight/ && cp -R $SRC/busylight/ $DEST/busylight/

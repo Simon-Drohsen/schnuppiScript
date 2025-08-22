@@ -1,7 +1,3 @@
-### Variables
-SRC=/Volumes/recycling/_install_macbooks    # src path for manual software
-DEST=~/schnuppiScript/ToInstall               # destination path for manual software
-
 ### Connect network share (with AppleScript)
 osascript <<EOF
 set theResponse to display dialog "Username for network share:" default answer "" with icon note buttons {"Continue"} default button "Continue"
@@ -112,21 +108,3 @@ defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
 # Don’t automatically rearrange Spaces based on most recent use
 # ToDo: Needed?
 defaults write com.apple.dock mru-spaces -bool false
-
-
-### Install software without brew
-# Sonos controller
-mkdir -p $DEST/sonos_controller/ && cp -R $SRC/sonos_controller/ $DEST/sonos_controller/
-# Citrix Workspace
-mkdir -p $DEST/workspace_v2104_citrix/ && cp -R $SRC/workspace_v2104_citrix/ $DEST/workspace_v2104_citrix/
-# Dock plist
-mkdir -p $DEST/dock_plist/ && cp -R $SRC/dock_plist/ $DEST/dock_plist/
-# Dockspaces
-mkdir -p $DEST/dock_spaces/ && cp -R $SRC/dock_spaces/ $DEST/dock_spaces/
-# DefenderForBusiness
-mkdir -p $DEST/DefenderForBusiness/ && cp -R $SRC/DefenderForBusiness/ $DEST/DefenderForBusiness/
-
-killall Finder
-
-## open folder in finder
-open $DEST

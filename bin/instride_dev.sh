@@ -65,4 +65,4 @@ notify '💪 Setting some Mac settings'
 $CONFIG/base.sh
 $CONFIG/instride_dev.sh
 
-notify '🙏 Ready for take off! Please install the copied software in the folder "ToInstall".'
+notify '🙏 Ready for take off!'
