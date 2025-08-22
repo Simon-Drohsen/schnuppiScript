@@ -23,6 +23,4 @@ cask 'responsively'
 cask 'miro'
 
 ### Microsoft
-cask 'microsoft-office'
 cask 'microsoft-powerpoint'
-cask 'microsoft-teams'

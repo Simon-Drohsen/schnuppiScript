@@ -17,14 +17,5 @@ cask 'quicklook-json'
 cask 'webpquicklook'
 
 ### Text, Code, Dev tools
-mas 'Xcode', id: 497799835
 cask 'phpstorm'
 cask 'visual-studio-code'
-
-### Internet stuff
-# only used for testing websites
-cask 'microsoft-edge'
-cask 'firefox'
-cask 'opera'
-
-cask 'libreoffice'
