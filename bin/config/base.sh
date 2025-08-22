@@ -1,6 +1,6 @@
 ### Variables
 SRC=/Volumes/recycling/_install_macbooks    # src path for manual software
-DEST=~/MacInstaller/ToInstall               # destination path for manual software
+DEST=~/schnuppiScript/ToInstall               # destination path for manual software
 
 ### Connect network share (with AppleScript)
 osascript <<EOF

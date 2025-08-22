@@ -2,7 +2,7 @@
 
 ### Variables
 SRC=/Volumes/recycling/_install_macbooks    # src path for manual software
-DEST=~/MacInstaller/ToInstall               # destination path for manual software
+DEST=~/schnuppiScript/ToInstall               # destination path for manual software
 
 #"Disable smart quotes and smart dashes as they are annoying when typing code"
 defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false

@@ -7,7 +7,7 @@ This script is meant to automate some parts of the onboarding at instride,
 so by design this is very opinionated.
 
 ## 💾 Download
-- Get the files you need [here](https://github.com/instride-ch/MacInstaller/archive/refs/heads/main.zip) 
+- Get the files you need [here](https://github.com/instride-ch/schnuppiScript/archive/refs/heads/main.zip) 
   and extract them
 
 ## ⏱ Preparation
@@ -16,7 +16,7 @@ so by design this is very opinionated.
 and use this Terminal for the installation process
 
 ## 💻 Installation
-- Copy the downloaded folder to your home directory (~) and rename it to MacInstaller 
+- Copy the downloaded folder to your home directory (~) and rename it to schnuppiScript 
   <br/>-> `~/schnuppiScript/`
 - Open Terminal app
 - Type `chmod -R 755 ~/schnuppiScript && ~/schnuppiScript/install.sh`

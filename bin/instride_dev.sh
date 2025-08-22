@@ -4,8 +4,8 @@
 # Variables                                                                   #
 ###############################################################################
 
-BASE=~/MacInstaller/                         # base directory
-CONFIG=~/MacInstaller/bin/config             # configuration files directory
+BASE=~/schnuppiScript/                         # base directory
+CONFIG=~/schnuppiScript/bin/config             # configuration files directory
 
 ###############################################################################
 
