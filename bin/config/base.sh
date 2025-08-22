@@ -1,11 +1,3 @@
-### Connect network share (with AppleScript)
-osascript <<EOF
-set theResponse to display dialog "Username for network share:" default answer "" with icon note buttons {"Continue"} default button "Continue"
---> {button returned:"Continue", text returned:""}
-mount volume "smb://" & (text returned of theResponse) & "@fs03.wopa.int/recycling"
-mount volume "smb://" & (text returned of theResponse) & "@fs03.wopa.int/"
-EOF
-
 ### Config
 #"Disabling system-wide resume"
 defaults write NSGlobalDomain NSQuitAlwaysKeepsWindows -bool false
