@@ -1,0 +1,28 @@
+###################################################
+#     Base Brewfile for all departments           #
+###################################################
+
+tap 'homebrew/cask'
+tap 'homebrew/bundle'
+tap 'homebrew/core'
+
+### OSX Terminal stuff that will make your life easier
+brew 'bash'
+
+### System tools
+cask '1password'
+cask 'appcleaner'
+
+# let you mount windows drives and write on it
+cask 'macfuse'
+
+### Internet stuff
+cask 'google-chrome'
+cask 'responsively'
+
+### Collaboration & communication
+cask 'miro'
+
+### Microsoft
+cask 'microsoft-office'
+cask 'microsoft-teams'

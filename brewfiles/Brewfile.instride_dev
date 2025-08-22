@@ -1,0 +1,29 @@
+###################################################
+#     Extended Brewfile for instride Dev          #
+###################################################
+
+### System tools
+cask 'hyper'
+cask 'rectangle'
+cask 'the-unarchiver'
+
+# quicklook extensions
+cask 'qlcolorcode'
+cask 'qlimagesize'
+cask 'qlmarkdown'
+cask 'qlstephen'
+cask 'quicklook-csv'
+cask 'quicklook-json'
+cask 'webpquicklook'
+
+### Text, Code, Dev tools
+mas 'Xcode', id: 497799835
+cask 'phpstorm'
+
+### Internet stuff
+# only used for testing websites
+cask 'microsoft-edge'
+cask 'firefox'
+cask 'opera'
+
+cask 'libreoffice'
